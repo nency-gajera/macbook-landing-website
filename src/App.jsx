@@ -1,6 +1,11 @@
+import gsap from "gsap"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import ProductViewer from "./components/ProductViewer"
+import Showcase from "./components/Showcase"
+import { ScrollTrigger } from "gsap/all"
+
+gsap.registerPlugin(ScrollTrigger)
 
 function App() {  
   return (
@@ -8,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <ProductViewer />
+      <Showcase />
     </main>
   )
 }
