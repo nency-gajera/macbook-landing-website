@@ -81,7 +81,7 @@ export default function Performance() {
 
             <div className="content">
                 <p>
-                    Run garphics-intensive workflows with a responsiveness that keeps up
+                    Run graphics-intensive workflows with a responsiveness that keeps up
                     with your imagination. The M4 family of chips features a GPU with a
                     second-generation hardware-accelerated ray tracing engine that renders
                     images faster, so {" "}
