@@ -31,7 +31,7 @@ const performanceImages = [
     { id: "p2", src: "/performance2.png" },
     { id: "p3", src: "/performance3.png" },
     { id: "p4", src: "/performance4.png" },
-    { id: "p5", src: "/performance5.png" },
+    { id: "p5", src: "/performance5.jpg" },
     { id: "p6", src: "/performance6.png" },
     { id: "p7", src: "/performance7.png" },
 ];
@@ -43,18 +43,18 @@ const performanceImgPositions = [
         bottom: 65,
     },
     {
-        id: "p1",
-        left: 10,
+        id: "p2",
+        right: 10,
         bottom: 60,
     },
     {
         id: "p3",
-        left: -5,
+        right: -5,
         bottom: 45,
     },
     {
         id: "p4",
-        left: -10,
+        right: -10,
         bottom: 0,
     },
     {
