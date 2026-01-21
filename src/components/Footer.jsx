@@ -11,7 +11,7 @@ export default function Footer() {
             <hr />
 
             <div className="links">
-                <p>Copyrights &copy; {new Date().getFullYear()} Apple Inc. All rights reserved.</p>
+                <p>Copyright &copy; {new Date().getFullYear()} Apple Inc. All rights reserved.</p>
 
                 <ul>
                     {footerLinks.map(({ label, link }) => (
